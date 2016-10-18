@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
 echo "get latest..."
-cd COpenGL/
+#cd COpenGL/
 git reset --hard HEAD
-git clean -f
+#git clean -f
 git pull
 echo "got latest."
 sudo g++ opengl.c -lglut -lGL -lGLU -ogp.out
