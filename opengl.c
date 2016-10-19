@@ -59,7 +59,7 @@ void display()
                 glColor3f(1.0, 0, 0);
 
 
-                glutWireTeapot(3);
+                glutWireOctahedron();
 
                 glFlush();
 
