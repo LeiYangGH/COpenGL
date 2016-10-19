@@ -31,7 +31,7 @@ void init()
 {
 
 
-            glClearColor(0.0, 0.0, 255.0, 0.0);
+            glClearColor(0.0, 255.0, 255.0, 0.0);
 
             glMatrixMode(GL_PROJECTION);
 
